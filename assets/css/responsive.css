@@ -1,0 +1,26 @@
+@media (max-width: 765px) {
+	.account-left{
+		display: none;
+	}
+	.account-right{
+		width: 100%;
+	}
+	.mybar{
+		display: block;
+	}
+	#sidebar{
+		width:100%;
+		display: none;
+	}
+	#main-chat-area{
+		width:100%;
+	}
+}
+@media (max-width: 320px){
+	.right-msg{
+		margin-top:4rem;
+	}
+	#main-chat-area{
+		position: relative;
+	}
+}
